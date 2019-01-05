@@ -1,4 +1,3 @@
-
 package com.gyang;
 
 import org.springframework.boot.SpringApplication;
