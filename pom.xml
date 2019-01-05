@@ -9,11 +9,11 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.gyang</groupId>
-	<artifactId>SpringBoot</artifactId>
+	<artifactId>JavaExamples</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
-	<name>SpringBoot</name>
-	<description>Spring Boot</description>
+	<name>JavaExamples</name>
+	<description>JavaExamples</description>
 
 	<properties>
 		<java.version>1.8</java.version>

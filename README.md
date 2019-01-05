@@ -1,1 +1,2 @@
-# CodingExamples
+# Java code examples
+
