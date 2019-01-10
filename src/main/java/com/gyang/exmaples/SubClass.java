@@ -1,4 +1,4 @@
-package com.gyang.exmaples.resizable;
+package com.gyang.exmaples;
 
 public class SubClass extends MyClass {
     @Override

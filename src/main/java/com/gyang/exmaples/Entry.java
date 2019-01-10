@@ -1,6 +1,4 @@
-package com.gyang.exmaples.resizable;
-
-import java.awt.event.MouseAdapter;
+package com.gyang.exmaples;
 
 public class Entry
 {
