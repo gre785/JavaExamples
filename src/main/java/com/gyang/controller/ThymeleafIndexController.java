@@ -19,7 +19,7 @@ public class ThymeleafIndexController
         for (int i = 0; i < 10; i++) {
             users.add(new User("name" + i, "male", i + " " + i * i + " " + 2008, i));
         }
-        model.addAttribute("message", "look at me!");
+        model.addAttribute("message", "Polygon Index!");
         model.addAttribute("users", users);
         return "index";
     }
