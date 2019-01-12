@@ -1,11 +1,9 @@
 package com.gyang.exmaples.resizable;
 
-import java.awt.Color;
-import java.awt.EventQueue;
+import javax.swing.*;
+import java.awt.*;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
-import javax.swing.JFrame;
-import javax.swing.JPanel;
 
 public class ResizableComponentEx extends JFrame {
 
@@ -22,7 +20,7 @@ public class ResizableComponentEx extends JFrame {
 		add(pnl);
 
 		JPanel area = new JPanel();
-		area.setBackground(Color.white);
+		area.setBackground(Color.blue);
 		area.requestFocus();
 		res = new Resizable(area);
 		res.setBounds(50, 50, 200, 150);

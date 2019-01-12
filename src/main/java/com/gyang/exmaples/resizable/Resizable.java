@@ -31,7 +31,7 @@ public class Resizable extends JComponent {
 
 		@Override
 		public void mouseMoved(MouseEvent me) {
-			if (hasFocus()) {
+			if (hasFocus()){
 				ResizableBorder border = (ResizableBorder) getBorder();
 				setCursor(Cursor.getPredefinedCursor(border.getCursor(me)));
 			}
