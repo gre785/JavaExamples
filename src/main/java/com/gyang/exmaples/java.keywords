@@ -1,0 +1,36 @@
+Java keywords
+OOP:
+	class, interface, enum
+	extends, implements
+	new
+	return
+	this, super
+Modifier:
+	abstract
+	final
+	public, protected, private, (package private)
+	*static
+Tool:
+	package, import
+	instanceof
+	assert
+Decision making:
+	if, else
+	for, while
+	switch, case, default
+	break, continue
+Type:
+	boolean, byte, char, float, int, short, long
+	true, false
+	void, null
+Exception:
+	try, catch, throws
+	finally
+Multithreading:
+	synchronized
+	volatile
+	transient
+Rarely use:
+	do
+	native
+	strictfp
