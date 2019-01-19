@@ -54,6 +54,12 @@
             <artifactId>thymeleaf-extras-java8time</artifactId>
         </dependency>
 
+        <!-- vaadin framework -->
+<!--         <dependency> -->
+<!--             <groupId>com.vaadin</groupId> -->
+<!--             <artifactId>vaadin-spring-boot-starter</artifactId> -->
+<!--         </dependency> -->
+
         <!-- hot swap tool -->
         <dependency>
             <groupId>org.springframework.boot</groupId>

@@ -1,4 +1,4 @@
-package com.gyang.exmaples.oop;
+package com.gyang.exmaples.oop.inheirate;
 
 public abstract class MyAbstractClass
     implements IMyInterface

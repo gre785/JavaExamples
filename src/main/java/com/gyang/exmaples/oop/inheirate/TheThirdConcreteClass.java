@@ -1,6 +1,6 @@
-package com.gyang.exmaples.oop;
+package com.gyang.exmaples.oop.inheirate;
 
-public class MyConcreteClass
+public class TheThirdConcreteClass
     extends MyAbstractClass
 {
     @Override
@@ -12,6 +12,7 @@ public class MyConcreteClass
     @Override
     public String AbstractGetName()
     {
-        return "1st";
+        return "3rd";
     }
+
 }
