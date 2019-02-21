@@ -3,6 +3,11 @@ package com.gyang.exmaples.coding.interview;
 
 public class DeadLockFixed
 {
+    // don't use multiple threads (like Swing does)
+    // don't hold several locks at once. If you do, always acquire the locks in the same order
+    // don't execute foreign code while holding a lock
+    // use interruptible locks
+
     /**
      * Both method are now requesting lock in same order, first Integer and then String.
      * You could have also done reverse e.g. first String and then Integer,
