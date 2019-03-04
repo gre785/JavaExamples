@@ -1,5 +1,5 @@
 
-package com.gyang.exmaples.coding.interview;
+package com.gyang.exmaples.coding.algorithm;
 
 public class DeadLockDemo
 {
