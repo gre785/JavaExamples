@@ -56,4 +56,14 @@ public class DepthFirstSearch
             }
         }
     }
+    public static void inOrderWithoutRecursion(NodeTree root)
+    {
+        if(root == null)
+            return;
+        Stack<NodeTree> stack = new Stack<>();
+        stack.push(root);
+        while(!stack.empty()) {
+            
+        }
+    }
 }

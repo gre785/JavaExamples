@@ -3,7 +3,7 @@ package com.gyang.exmaples.search;
 
 public class BinarySearch
 {
-    public int BinarySearchIterative(int arr[], int target)
+    public static int BinarySearchIterative(int arr[], int target)
     {
         int l = 0;
         int r = arr.length - 1;
@@ -21,7 +21,7 @@ public class BinarySearch
         return -1;
     }
 
-    public int BinarySearchRecursion(int arr[], int l, int r, int target)
+    public static int BinarySearchRecursion(int arr[], int l, int r, int target)
     {
         if (r >= l) {
             int mid = (l + r) / 2;
