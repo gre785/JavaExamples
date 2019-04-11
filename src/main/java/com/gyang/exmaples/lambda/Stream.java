@@ -22,8 +22,8 @@ public class Stream
      */
     public static List<Person> filter()
     {
-        Set<String> set = new HashSet<>(_persons.size());
-        return _persons.stream().filter(p -> set.add(p.getName())).collect(Collectors.toList());
+        Set<String> set = new HashSet<>();
+        return _persons.stream().filter(p -> !set.add(p.getName())).collect(Collectors.toList());
     }
 
 }
