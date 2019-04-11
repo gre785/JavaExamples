@@ -14,7 +14,9 @@ public class Stream
 
     public static void main(String[] args)
     {
-        System.out.println(filter().size());
+        for (Person person : filter()) {
+            System.out.println(person.getName() + " " + person.getAge() + " " + person.getGender());
+        }
     }
 
     /**
@@ -23,7 +25,7 @@ public class Stream
     public static List<Person> filter()
     {
         Set<String> set = new HashSet<>();
-        return _persons.stream().filter(p -> !set.add(p.getName())).collect(Collectors.toList());
+        return _persons.stream().filter(p -> set.add(p.getName())).collect(Collectors.toList());
     }
 
 }
