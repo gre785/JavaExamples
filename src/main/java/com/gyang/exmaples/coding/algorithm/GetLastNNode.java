@@ -2,7 +2,7 @@ package com.gyang.exmaples.coding.algorithm;
 
 public class GetLastNNode
 {
-    public static Node solution(int n)
+    public static Node solution(int n, Node head)
     {
         if(head == null) {
             return null;
