@@ -95,6 +95,14 @@
             <version>1.1.1</version>
             <scope>test</scope>
         </dependency>
+
+        <!-- English dictionary -->
+        <dependency>
+            <groupId>me.shib.java.lib</groupId>
+            <artifactId>diction</artifactId>
+            <version>0.1.1</version>
+        </dependency>
+
     </dependencies>
 
     <build>
