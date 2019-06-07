@@ -5,7 +5,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
-public class ThymeleafIndexController
+public class IndexController
 {
     @RequestMapping("/boot/index")
     public String index(Model model)

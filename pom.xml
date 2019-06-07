@@ -103,6 +103,19 @@
             <version>0.1.1</version>
         </dependency>
 
+        <!-- Hibernate -->
+        <dependency>
+            <groupId>javax.persistence</groupId>
+            <artifactId>persistence-api</artifactId>
+            <version>1.0</version>
+        </dependency>
+
+        <!-- crawler -->
+        <dependency>
+            <groupId>edu.uci.ics</groupId>
+            <artifactId>crawler4j</artifactId>
+            <version>4.4.0</version>
+        </dependency>
     </dependencies>
 
     <build>
