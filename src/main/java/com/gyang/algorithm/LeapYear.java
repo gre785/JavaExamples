@@ -1,4 +1,4 @@
-package com.gyang.exmaples.coding.algorithm;
+package com.gyang.algorithm;
 
 public class LeapYear
 {

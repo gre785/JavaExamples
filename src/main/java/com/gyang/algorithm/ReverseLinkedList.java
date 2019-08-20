@@ -1,6 +1,4 @@
-package com.gyang.exmaples.coding.algorithm;
-
-import java.util.LinkedList;
+package com.gyang.algorithm;
 
 public class ReverseLinkedList
 {

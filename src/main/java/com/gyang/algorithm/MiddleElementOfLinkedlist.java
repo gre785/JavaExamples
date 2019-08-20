@@ -1,4 +1,4 @@
-package com.gyang.exmaples.coding.algorithm;
+package com.gyang.algorithm;
 
 import java.util.LinkedList;
 
