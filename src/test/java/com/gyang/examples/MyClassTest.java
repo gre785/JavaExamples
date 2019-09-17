@@ -8,7 +8,7 @@ import org.junit.Test;
 /**
  * Parasoft Jtest UTA: Test class for MyClass
  *
- * @see com.gyang.examples.MyClass
+ * @see MyClass
  * @author gyang
  */
 public class MyClassTest {
@@ -16,7 +16,7 @@ public class MyClassTest {
 	/**
 	 * Parasoft Jtest UTA: Test for getObject()
 	 *
-	 * @see com.gyang.examples.MyClass#getObject()
+	 * @see MyClass#getObject()
 	 * @author gyang
 	 */
 	@Test
