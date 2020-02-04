@@ -6,5 +6,6 @@ public final class Example {
 		StaticExample.setValue(newValue);
 
 		System.setProperty("name", "zijun");
+		System.setProperty("gender", "female");
 	}
 }
